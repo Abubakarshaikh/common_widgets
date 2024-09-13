@@ -1,6 +1,6 @@
-# common_widgets_example
+# flutter_common_components_example
 
-Demonstrates how to use the common_widgets plugin.
+Demonstrates how to use the flutter_common_components plugin.
 
 ## Getting Started
 

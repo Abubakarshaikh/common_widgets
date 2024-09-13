@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:common_widgets/common_widgets.dart';
+import 'package:flutter_common_components/flutter_common_components.dart';
 
 void main() {
   runApp(const MyApp());

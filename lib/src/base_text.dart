@@ -1,4 +1,4 @@
-import 'package:common_widgets/src/link_text.dart';
+import 'package:flutter_common_components/src/link_text.dart';
 import 'package:flutter/foundation.dart' show VoidCallback, immutable;
 import 'package:flutter/material.dart' show Colors, TextDecoration, TextStyle;
 

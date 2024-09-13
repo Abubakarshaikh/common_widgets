@@ -1,5 +1,5 @@
-import 'package:common_widgets/src/base_text.dart';
-import 'package:common_widgets/src/link_text.dart';
+import 'package:flutter_common_components/src/base_text.dart';
+import 'package:flutter_common_components/src/link_text.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 

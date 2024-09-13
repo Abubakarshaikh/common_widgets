@@ -1,7 +1,7 @@
-import 'package:common_widgets/src/extensions/buildcontext/theme_extension.dart';
-import 'package:common_widgets/src/utils/icons_utils.dart';
-import 'package:common_widgets/src/utils/padding_utils.dart';
-import 'package:common_widgets/src/utils/radius_utils.dart';
+import 'package:flutter_common_components/src/extensions/buildcontext/theme_extension.dart';
+import 'package:flutter_common_components/src/utils/icons_utils.dart';
+import 'package:flutter_common_components/src/utils/padding_utils.dart';
+import 'package:flutter_common_components/src/utils/radius_utils.dart';
 import 'package:flutter/material.dart';
 
 class CircleIconButton extends StatelessWidget {

@@ -1,4 +1,4 @@
-import 'package:common_widgets/src/base_text.dart';
+import 'package:flutter_common_components/src/base_text.dart';
 import 'package:flutter/foundation.dart' show VoidCallback, immutable;
 
 @immutable

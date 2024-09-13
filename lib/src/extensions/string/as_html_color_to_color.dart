@@ -1,4 +1,4 @@
-import 'package:common_widgets/src/extensions/string/remove_all.dart';
+import 'package:flutter_common_components/src/extensions/string/remove_all.dart';
 import 'package:flutter/material.dart' show Color;
 
 extension AsHtmlColorToColor on String {

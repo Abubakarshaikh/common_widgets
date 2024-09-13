@@ -1,8 +1,8 @@
-name: common_widgets
-description: "A new Flutter plugin project."
+name: flutter_common_components
+description: A Flutter package that provides customizable widgets for creating beautiful user interfaces. It includes responsive layouts, animated components, and theme-aware designs.
 version: 0.0.1
 homepage:
-repository: https://github.com/Abubakarshaikh/common_widgets
+repository: https://github.com/Abubakarshaikh/flutter_common_components
 
 environment:
   sdk: ^3.5.2
@@ -19,6 +19,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

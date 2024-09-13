@@ -1,5 +1,5 @@
-name: common_widgets_example
-description: "Demonstrates how to use the common_widgets plugin."
+name: flutter_common_components_example
+description: "Demonstrates how to use the flutter_common_components plugin."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -17,9 +17,9 @@ dependencies:
   flutter:
     sdk: flutter
 
-  common_widgets:
+  flutter_common_components:
     # When depending on this package from a real application you should use:
-    #   common_widgets: ^x.y.z
+    #   flutter_common_components: ^x.y.z
     # See https://dart.dev/tools/pub/dependencies#version-constraints
     # The example app is bundled with the plugin so we use a path dependency on
     # the parent directory to use the current plugin's version.

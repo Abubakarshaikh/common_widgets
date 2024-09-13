@@ -1,5 +1,5 @@
-import 'package:common_widgets/src/app_text.dart';
-import 'package:common_widgets/src/utils/icons_utils.dart';
+import 'package:flutter_common_components/src/app_text.dart';
+import 'package:flutter_common_components/src/utils/icons_utils.dart';
 import 'package:flutter/material.dart';
 
 class CommonSearchBar extends SearchDelegate<String?> {

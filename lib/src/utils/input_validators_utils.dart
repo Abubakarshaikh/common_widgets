@@ -1,4 +1,4 @@
-import 'package:common_widgets/src/utils/requirement_utils.dart';
+import 'package:flutter_common_components/src/utils/requirement_utils.dart';
 
 class Validators {
   static bool required(String? value) {

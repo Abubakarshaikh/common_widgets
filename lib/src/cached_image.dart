@@ -1,7 +1,7 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:common_widgets/src/skeleton.dart';
-import 'package:common_widgets/src/utils/icons_utils.dart';
+import 'package:flutter_common_components/src/skeleton.dart';
+import 'package:flutter_common_components/src/utils/icons_utils.dart';
 import 'package:flutter/material.dart';
 
 class CachedImage extends StatelessWidget {

@@ -1,8 +1,8 @@
-import 'package:common_widgets/src/app_text.dart';
-import 'package:common_widgets/src/const_sized_box.dart';
-import 'package:common_widgets/src/extensions/buildcontext/theme_extension.dart';
-import 'package:common_widgets/src/utils/icons_utils.dart';
-import 'package:common_widgets/src/utils/radius_utils.dart';
+import 'package:flutter_common_components/src/app_text.dart';
+import 'package:flutter_common_components/src/const_sized_box.dart';
+import 'package:flutter_common_components/src/extensions/buildcontext/theme_extension.dart';
+import 'package:flutter_common_components/src/utils/icons_utils.dart';
+import 'package:flutter_common_components/src/utils/radius_utils.dart';
 import 'package:flutter/material.dart';
 
 class CommonInputChip extends StatelessWidget {

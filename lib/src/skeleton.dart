@@ -1,5 +1,5 @@
-import 'package:common_widgets/src/extensions/buildcontext/theme_extension.dart';
-import 'package:common_widgets/src/utils/radius_utils.dart';
+import 'package:flutter_common_components/src/extensions/buildcontext/theme_extension.dart';
+import 'package:flutter_common_components/src/utils/radius_utils.dart';
 import 'package:flutter/widgets.dart';
 
 class Skeleton extends StatelessWidget {
