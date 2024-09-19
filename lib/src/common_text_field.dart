@@ -1,6 +1,6 @@
-import 'package:flutter_common_components/src/utils/icons_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_common_components/src/utils/icons_utils.dart';
 
 class CommonTextField extends StatefulWidget {
   const CommonTextField({
