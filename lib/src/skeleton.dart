@@ -1,4 +1,4 @@
-import 'package:flutter_common_components/src/extensions/buildcontext/theme_extension.dart';
+import 'package:flutter_common_components/src/base/extensions/buildcontext/theme_extension.dart';
 import 'package:flutter_common_components/src/utils/radius_utils.dart';
 import 'package:flutter/widgets.dart';
 

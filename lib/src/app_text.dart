@@ -1,5 +1,8 @@
+// Flutter imports:
+// Project imports:
 import 'package:flutter/material.dart';
-import 'package:flutter_common_components/src/extensions/buildcontext/theme_extension.dart';
+import 'package:flutter_common_components/src/base/extensions/buildcontext/theme_extension.dart';
+// Package imports:
 import 'package:google_fonts/google_fonts.dart';
 
 class AppText extends StatelessWidget {
@@ -194,42 +197,26 @@ class AppText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final TextTheme textTheme = context.textTheme;
-    final TextStyle? style = () {
-      switch (level) {
-        case 'labelSmall':
-          return textTheme.labelSmall;
-        case 'labelMedium':
-          return textTheme.labelMedium;
-        case 'labelLarge':
-          return textTheme.labelLarge;
-        case 'bodySmall':
-          return textTheme.bodySmall;
-        case 'bodyMedium':
-          return textTheme.bodyMedium;
-        case 'bodyLarge':
-          return textTheme.bodyLarge;
-        case 'titleSmall':
-          return textTheme.titleSmall;
-        case 'titleMedium':
-          return textTheme.titleMedium;
-        case 'titleLarge':
-          return textTheme.titleLarge;
-        case 'headlineSmall':
-          return textTheme.headlineSmall;
-        case 'headlineMedium':
-          return textTheme.headlineMedium;
-        case 'headlineLarge':
-          return textTheme.headlineLarge;
-        case 'displaySmall':
-          return textTheme.displaySmall;
-        case 'displayMedium':
-          return GoogleFonts.pacifico(
-            textStyle: textTheme.displayMedium,
-          );
-        case 'displayLarge':
-          return textTheme.displayLarge;
-      }
-    }();
+    final TextStyle? style = switch (level) {
+      'labelSmall' => textTheme.labelSmall,
+      'labelMedium' => textTheme.labelMedium,
+      'labelLarge' => textTheme.labelLarge,
+      'bodySmall' => textTheme.bodySmall,
+      'bodyMedium' => textTheme.bodyMedium,
+      'bodyLarge' => textTheme.bodyLarge,
+      'titleSmall' => textTheme.titleSmall,
+      'titleMedium' => textTheme.titleMedium,
+      'titleLarge' => textTheme.titleLarge,
+      'headlineSmall' => textTheme.headlineSmall,
+      'headlineMedium' => textTheme.headlineMedium,
+      'headlineLarge' => textTheme.headlineLarge,
+      'displaySmall' => textTheme.displaySmall,
+      'displayMedium' => GoogleFonts.pacifico(
+          textStyle: textTheme.displayMedium,
+        ),
+      'displayLarge' => textTheme.displayLarge,
+      _ => null,
+    };
     return Text(
       data.trim(),
       textAlign: textAlign,

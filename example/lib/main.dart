@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_common_components/flutter_common_components.dart';
+import 'package:flutter_common_components_example/examples/common_gradient_fill_button_example.dart';
+import 'package:flutter_common_components_example/examples/common_icon_text_button_example.dart';
+import 'package:flutter_common_components_example/examples/common_outline_fill_button_example.dart';
+import 'package:flutter_common_components_example/examples/common_small_button.dart';
 import 'package:flutter_common_components_example/examples/common_snack_bar_example.dart';
 import 'package:flutter_common_components_example/examples/common_text_field_example.dart';
 
@@ -23,10 +27,18 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: AppTheme(
-        primary: Colors.green,
-        textTheme: GoogleFontsThemeUtil.poppinsTextTheme,
-      ).standard(),
+      // theme: AppTheme(
+      //   primary: Colors.green,
+      //   textTheme: GoogleFontsThemeUtil.poppinsTextTheme,
+      // ).standard(),
+      theme: ThemeData.light()
+          .copyWith(colorScheme: ColorScheme.fromSwatch(), extensions: [
+        WidgetToolkitTheme.light(),
+      ]),
+      darkTheme: ThemeData.dark()
+          .copyWith(colorScheme: ColorScheme.fromSwatch(), extensions: [
+        WidgetToolkitTheme.dark(),
+      ]),
       home: const ExampleScreen(),
     );
   }
@@ -73,6 +85,51 @@ class ExampleScreen extends StatelessWidget {
               );
             },
             title: "Snackbar",
+          ),
+          CustomElevatedButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const CommonSmallButtonExample(),
+                ),
+              );
+            },
+            title: "Small Button",
+          ),
+          CustomElevatedButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const CommonOutlineFillButtonExample(),
+                ),
+              );
+            },
+            title: "Outline Fill Button",
+          ),
+          CustomElevatedButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const CommonGradientFillButtonExample(),
+                ),
+              );
+            },
+            title: "Gradient Fill Button",
+          ),
+          CustomElevatedButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) =>
+                      const CommonIconTextButtonButtonExample(),
+                ),
+              );
+            },
+            title: "Icon Text Button",
           ),
         ],
       ),
