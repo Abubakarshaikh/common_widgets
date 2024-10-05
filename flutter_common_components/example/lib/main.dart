@@ -8,7 +8,9 @@ import 'package:flutter_common_components_example/examples/common_snack_bar_exam
 import 'package:flutter_common_components_example/examples/common_text_field_example.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    const MyApp(),
+  );
 }
 
 class MyApp extends StatefulWidget {
